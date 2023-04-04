@@ -58,6 +58,7 @@ main {
 
 .projects {
     background-color: yellow;
+    width: 75%;
 }
 
 footer {
@@ -67,4 +68,11 @@ footer {
 footer h2 {
     text-align: center;
     width: 100%;
+}
+
+.project-content {
+    border: solid;
+    border-color: black;
+    width: 200x;
+    height: 200px;
 }
