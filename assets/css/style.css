@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: blue;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h2 {
+    float: left;
+    width: 30%;
+}
+
+p, h3 {
+    float: right;
+    width: 70%;
+}
+
+nav {
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+
+main {
+    background-color: purple;
+}
+
+#profile {
+    position: relative;
+    right: 0;
+    height: 200px;
+    width: 200px;
+}
+
+.about-me {
+    background-color: red;
+}
+
+.contact-information {
+    background-color: green;
+}
+
+.projects {
+    background-color: yellow;
+}
+
+footer {
+    background-color: orange;
+}
+
+footer h2 {
+    text-align: center;
+    width: 100%;
+}
