@@ -75,6 +75,11 @@ nav a:hover {
     color: maroon;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 main {
     background-color: saddlebrown;
     display: flex;
@@ -138,6 +143,36 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
+}
+
+.titles {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Garamond;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: wheat;
+    padding: 10px;
+}
+
+#title1 {
+    position: absolute;
+    top: 125px;
+    left: 25px;
+}
+
+#title2 {
+    position: absolute;
+    top: 310px;
+    left: 25px;
+}
+
+#title3 {
+    position: absolute;
+    top: 310px;
+    left: 560px;
 }
 
 .project-other {
@@ -151,7 +186,7 @@ main {
 }
 
 #project-one {
-    width: 1050px;
+    width: 1030px;
     height: 150px;
     text-align: center;
     object-fit: cover;
@@ -169,6 +204,10 @@ main {
     border-color: maroon;
 }
 
+.titles:hover {
+    border-color: maroon;
+}
+
 footer {
     background-color: #331800;
     border-top: solid;
@@ -182,3 +221,4 @@ footer h2 {
     text-align: center;
     margin: 10px;
 }
+
