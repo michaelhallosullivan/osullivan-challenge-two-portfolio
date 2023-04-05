@@ -95,13 +95,14 @@ main {
     align-items: center;
     justify-content: center;
     height: 175px;
+    position: relative;
 }
 
 #profile {
     height: 150px;
     width: 150px;
     position: absolute;
-    left: 400px;
+    left: 60px;
     border: solid;
     border-color: black;
     border-width: 5px;
@@ -128,9 +129,10 @@ main {
     text-align: center;
 }
 
-.contact-information h3 {
+.contact-information p {
     margin-left: 10px;
     font-size: 22px;
+    font-weight: bold;
 }
 
 .contact-information a:hover {
