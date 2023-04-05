@@ -35,7 +35,7 @@ h1 {
     border-color: black;
     border-width: 5px;
     background-color: saddlebrown;
-    height: 100vh;
+    height: 110vh;
     text-align: left;
     color: wheat;
 }
@@ -71,6 +71,10 @@ nav a {
     font-style: bold;
 }
 
+nav a:hover {
+    color: maroon;
+}
+
 main {
     background-color: saddlebrown;
     display: flex;
@@ -93,6 +97,10 @@ main {
     width: 150px;
     position: absolute;
     left: 400px;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    object-fit: cover;
 }
 
 .about-me p {
@@ -115,6 +123,10 @@ main {
 .contact-information h3 {
     margin-left: 10px;
     font-size: 22px;
+}
+
+.contact-information a:hover {
+    color: maroon;
 }
 
 .projects {
@@ -147,6 +159,14 @@ main {
     border-color: black;
     border-width: 5px;
     margin: 10px;
+}
+
+#project-one:hover {
+    border-color: maroon;
+}
+
+.project-other:hover {
+    border-color: maroon;
 }
 
 footer {
