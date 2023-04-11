@@ -41,4 +41,4 @@ Created by Michael O'Sullivan.
 
 MIT License
 
-![Model](https://github.com/michaelhallosullivan/osullivan-challenge-three-password-generator/blob/main/Develop/assets/images/challenge-two-screenshot.jpg)
+![Model](https://github.com/michaelhallosullivan/osullivan-challenge-two-portfolio/blob/main/assets/images/challenge-two-screenshot.jpg)
